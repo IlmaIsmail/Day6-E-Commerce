@@ -1,11 +1,11 @@
 # Day6-E-Commerce
 
-Employee Management System
+# Employee Management System
     Overview
     
     This project is an Employee Management System built using Java with Jakarta Persistence API (JPA) for database operations. It manages relationships between employees, departments, projects, and insurance information.
     
-  Project Structure
+## Project Structure
     
     Entity Models
     The system consists of four main entities:
@@ -36,23 +36,23 @@ Employee Management System
       Relationships:
       One-to-One with Employee
     
-    Entity Relationships
+## Entity Relationships
       An employee belongs to one department, but a department can have multiple employees
       An employee can work on multiple projects, and a project can have multiple employees
       An employee can have one insurance policy
     
-    Technologies Used
+## Technologies Used
       Java
       Jakarta Persistence API (JPA)
       [Database Technology] (e.g., MySQL,)
       [Framework] (e.g., Spring Boot)
     
-    Setup Instructions
+## Setup Instructions
       Clone the repository
       Configure your database connection in application.properties or application.yml
       Run the application
     
-    Database Schema
+## Database Schema
       The application uses the following tables:
       
         Employee
@@ -60,3 +60,7 @@ Employee Management System
         Project
         Employee_Project (join table for the many-to-many relationship)
         Insurance
+
+## Outputs
+
+
