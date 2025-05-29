@@ -58,7 +58,7 @@
         Employee
         Department
         Project
-        Employee_Project (join table for the many-to-many relationship)
+        Project_Employee (join table for the many-to-many relationship)
         Insurance
 
 ## Outputs
